@@ -1,0 +1,9 @@
+// link llamar css en la cabecera
+<link rel="stylessheet" href="estilos.css"/>
+por elemento, clase y Id
+.clase
+#id solo puede haber 1 solo id <h1 id="principal"> </h1>
+font define la fuente 
+font-size = tamaño de la fuente 
+Alineacion del texto:
+text-align

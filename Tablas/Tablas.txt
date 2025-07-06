@@ -1,0 +1,8 @@
+//th cabeza de la columna
+tr columnas
+td filas
+<style></style> debe estar en la cabecera en html <head></head>
+<frame></frame> mostrar video con enlace
+
+Sistema solar información
+

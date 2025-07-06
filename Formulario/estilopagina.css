@@ -1,0 +1,32 @@
+body { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #c7c1c1;
+}
+
+#titulo1 {
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: purple;
+}
+
+.imagen1 {
+  height: 200px;
+  text-align: left;
+   
+}
+input {
+    font-size: 20px;
+}
+button {
+    
+    font-size: 20px;
+}
+
+a {
+    font-size: 20px;
+    color: #119196;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLAS</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial,sans-serif;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f1400ab9;
+            color: black;
+        }
+        tr:nth-child(even){
+            background-color: rgb(173, 172, 171);
+        }
+        img {
+            width: 120px;
+        }
+    
+    </style>
+</head>
+<body>
+    <br>
+    <h1>Ejemplo de Tabla en HTML5 </h1>
+
+    <table>
+        <tr> <!-- Columnas-->
+            <th> Id</th> <!--Cabeza de las columnas-->
+            <th> Nombre</th>
+            <th> Edad</th>
+            <th> Correo electronico </th>
+            <th>Foto</th>
+            <th>Video</th>
+        </tr> 
+        <tr> 
+            <td> 1</td> <!--filas -->
+            <td> Ana maria</td>
+            <td> 28</td>
+            <td> Ana@gmail.com</td>
+            <td><img src="ana1.jpg" alt="Ana"></td>
+            <td> <iframe width="180" height="100" src="https://www.youtube.com/embed/1X1C7EaMqYg?si=UJYk5JxunEdpWibe&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr> 
+        <tr>
+            <td> 2</td>
+            <td> Juan Gomez</td>
+            <td> 36</td>
+            <td> Juan@gmail.com</td>
+            <td><img src="juan2.jpg" alt="Juan"></td>
+            <td> <iframe width="180" height="100" src="https://www.youtube.com/embed/6e6Hj7MwWaI?si=KF51fsDbvrRoCGt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </td>
+        </tr>
+         <tr>
+            <td> 3</td>
+            <td> Lucia Martinez</td>
+            <td> 22</td>
+            <td> lucia@gmail.com</td>
+            <td><img src="lucia2.jpg" alt="Lucia"></td>
+            <td> <iframe width="180" height="100" src="https://www.youtube.com/embed/ETEg-SB01QY?si=ssXibwrUYG3A0YpN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        
+
+    </table>
+
+
+</body>
+</html>
