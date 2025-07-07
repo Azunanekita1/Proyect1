@@ -67,8 +67,19 @@ Expande elementos de una array u objeto.
 Agrupa multiples valores en un unico array o parametro.
 reduce funcion.
 
+Promesas - Operaciones asincronas 
+continua ejecutandose mientras espera una operacion (como una llamada API o una base de datos) se complete.
+tres estados:
+pending (pendiente): aun la operacion no ha terminado
+fulfilled(resuelta); se completo con exito
+rejected (rechazada): la operacion fallo
 
+metodos de una promesa:
+then: maneja el resultado si la promesa se resuelve
+catch: maneja errores si la promesa se rechaza
+finally: se ejecuta siempre, independientemente de si la promesa fue resuelta o rechazada
 
+funcion flecha se peude agregar.
 
 
 
