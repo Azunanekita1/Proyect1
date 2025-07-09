@@ -7,4 +7,7 @@ working directory = donde se guardan los archivos. ej; la carpeta que abres en t
 Staging area =conjunto de archivos y cambios que seranincluidos en el siguiente commit
 Fusionar (merge) = Combinar o hacer merge ramas si necesitamos incorporar los cambios que hicimos en una rama en otra rama.
 
+git init
+git add .
+git commit -m ""
 
