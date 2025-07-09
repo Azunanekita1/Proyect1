@@ -2,6 +2,9 @@ git versiones
 Revertir a versiones anteriores
 
 commit = un registro de cambios realizados en el repositorio
-branch= una rama de desarrollo independiente
+branch= una rama de desarrollo independiente. crear una rama para trabajar en un aspecto nuevo del proyecto sin afectar la version principal.
 working directory = donde se guardan los archivos. ej; la carpeta que abres en tu editor de codigo o IDE para trabajar con tus archivos.
 Staging area =conjunto de archivos y cambios que seranincluidos en el siguiente commit
+Fusionar (merge) = Combinar o hacer merge ramas si necesitamos incorporar los cambios que hicimos en una rama en otra rama.
+
+
