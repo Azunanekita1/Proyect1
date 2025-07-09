@@ -25,4 +25,17 @@ git add "Mi primer pagina/MI primer pagina.html"
 git commit -m "Modifiqué la página principal con correcciones"
 git push
 
+Que son las ramas!
+crear nueva rama:
+git branch feature-nueva
+cambiar a una rama:
+git checkout feature-nueva
+fusionar ramas (merge):
+git checkout main
+git merge feature-nueva
+
+
+
+
+
 
