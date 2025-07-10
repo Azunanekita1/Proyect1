@@ -35,9 +35,11 @@ crear nueva rama:
 git branch feature-nueva
 cambiar a una rama:
 git checkout feature-nueva
+
 fusionar ramas (merge):
-git checkout main
+git checkout main // integrarlo
 git merge feature-nueva
+
 
 
 
