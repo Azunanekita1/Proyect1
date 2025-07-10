@@ -11,7 +11,7 @@ git init
 git add .
 git commit -m ""
 git remote add origin https://github.com/Azunanekita1/Proyect1.git
-
+ 
 echo "# prueba" >> README.md
 git init // UNA SOLA VEZ POR CARPETA
 git add README.md
