@@ -1,0 +1,17 @@
+
+//Etiquetas enlaces a las paginas 
+<h1> a h6
+<p>define un parrafo de texto </p>
+Enlaces <a href="url">Texto del enlace </a>
+Imagen <img src="url" alt="texto alternativo">
+
+//Formularios 
+Contenedor de formulario
+<form > </form>
+<label for="nombre"> muestra </label>
+<input type="text" id="nombre " name="nombre" required/>: contenido de texto;
+<input type= "email" id="email" name="email" : ingresar el correo;
+<button>Enviar o realizar una accion</button>
+Elementos multimedia:
+<audio></audio>
+<video>controls,width,height ANCHO, LARGO, CONTROLS <source src="video.mp4" type="video/mp4" </video>

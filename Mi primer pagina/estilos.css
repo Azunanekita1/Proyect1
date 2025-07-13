@@ -1,0 +1,31 @@
+body { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #c7c1c1;
+}
+h1 {
+    color: #0bb3e6;
+    text-align:center;
+}
+.section { 
+    padding: 10px;
+    background-color: #255e14;
+    border-radius: 20px;
+}
+p {
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+}
+.titulo {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#principal {
+    background-color: rgb(122, 97, 82);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+

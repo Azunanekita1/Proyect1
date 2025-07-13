@@ -1,0 +1,50 @@
+git versiones
+Revertir a versiones anteriores
+
+commit = un registro de cambios realizados en el repositorio
+branch= una rama de desarrollo independiente. crear una rama para trabajar en un aspecto nuevo del proyecto sin afectar la version principal.
+working directory = donde se guardan los archivos. ej; la carpeta que abres en tu editor de codigo o IDE para trabajar con tus archivos.
+Staging area =conjunto de archivos y cambios que seranincluidos en el siguiente commit
+Fusionar (merge) = Combinar o hacer merge ramas si necesitamos incorporar los cambios que hicimos en una rama en otra rama.
+
+git init
+git add .
+git commit -m ""
+git remote add origin https://github.com/Azunanekita1/Proyect1.git
+ 
+echo "# prueba" >> README.md
+git init // UNA SOLA VEZ POR CARPETA
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Azunanekita1/prueba.git
+git push -u origin main
+
+or push an existing repository from the command line
+git remote add origin https://github.com/Azunanekita1/prueba.git
+git branch -M main
+git push -u origin main
+
+guardar un commit :
+git add "Mi primer pagina/MI primer pagina.html"
+git commit -m "Modifiqué la página principal con correcciones"
+git push
+
+Que son las ramas!
+crear nueva rama:
+git branch feature-nueva
+cambiar a una rama:
+git checkout feature-nueva
+
+fusionar ramas (merge):
+git checkout main // integrarlo
+git merge feature-nueva
+
+Ultima modificacion 13 de julio
+
+
+
+
+
+
+

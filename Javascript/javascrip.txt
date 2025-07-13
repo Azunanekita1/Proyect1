@@ -1,0 +1,92 @@
+variables
+var,let, const
+var; alcance global a las funciones clase mas antigua para declarar.
+let, permite declarar variables con un alcance de bloque
+const; decalara constantes cuyo valor no puede cambiar
+
+tipos de datos:
+string; cadena de texto, delimitada por comillas ("texto")
+number; numeros enteros o decimales (10,8)
+boolean; valores logicos true o false.
+
+Operadores:
+aritmeticos: +,-,*,/
+de comparacion: ==,!=, >,<, para comparar valores.
+de asignacion: =,+=,-=,etc,para asignar valores a variables. 
+
+i++ incrementar.
+
+Estructuras de control:
+condicionales: (if,else)
+if= permite ejecutar codigo solo si una condicion es verdadera.
+Else= Si la condicion es falsa.
+
+Bucles - ciclos 
+
+for ejecuta un bloque de codigo un numero especifico de veces.
+
+while: ejecuta el codigo mientras se cumpla una condicion
+
+do while : primero realiza la condicion y luego se ejecuta.
+
+Funciones basicas: usar para codigo reutilizable.
+function una tarea especifica
+parametros y retornos:
+return se usa para devolver un valor desde la funcion.
+
+DOCUMENT OBJECT MODEL
+DOM - Seleccionar y manipular elementos de la pagina en javascript
+
+document.gerElementById: selecciona un elemento por su ID 
+document.querySelector:Selecciona el primer elemento que coincida con el selector css.
+
+<p id="saludo"> !hola</p>
+
+let saludo =
+document.gerElementById("saludo");
+saludo.textContent = "Bienvenido!";
+
+//id= saludo, ya no sera asi sino BIenvenido!
+
+Filter = para obtener los numeros mayores a 5 de un array
+
+map= transforma cada elemento en un array
+filter= filtra elementos segun una condicion
+reduce= reduce los valores de un array a un unico resultado.
+
+TEMPLATE STRINGS:
+Crear cadenas dinamicas de manera mas clara y concisa
+
+${nombre}
+
+Destructuring: Permite extraer propiedades de un objeto en variables individuales.
+
+SPREAD Y REST:
+Expande elementos de una array u objeto.
+(...) = expandir un elemento de un objeto o array.
+Agrupa multiples valores en un unico array o parametro.
+reduce funcion.
+
+Promesas - Operaciones asincronas 
+continua ejecutandose mientras espera una operacion (como una llamada API o una base de datos) se complete.
+tres estados:
+pending (pendiente): aun la operacion no ha terminado
+fulfilled(resuelta); se completo con exito
+rejected (rechazada): la operacion fallo
+
+metodos de una promesa:
+then: maneja el resultado si la promesa se resuelve
+catch: maneja errores si la promesa se rechaza
+finally: se ejecuta siempre, independientemente de si la promesa fue resuelta o rechazada
+
+funcion flecha se peude agregar.
+
+
+
+
+
+
+
+
+
+
