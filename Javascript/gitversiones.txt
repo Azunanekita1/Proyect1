@@ -40,7 +40,7 @@ fusionar ramas (merge):
 git checkout main // integrarlo
 git merge feature-nueva
 
-Ultima modificacion 13 de julio
+Ultima modificacion 13 de julio 1:25pm
 
 
 
