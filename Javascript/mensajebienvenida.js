@@ -4,7 +4,7 @@ const ciudad = document.getElementById ("ciudad").value;
 let mensaje = document.getElementById("mensaje");
 mensaje.textContent = ` Hola! ${nombre} bienvenido a ${ciudad} `;
 
-mensaje.addEventListener("submit", (Event)) { 
+mensaje.addEventListener("submit") { 
     Event.prevent
 }
 

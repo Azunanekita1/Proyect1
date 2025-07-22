@@ -42,6 +42,9 @@ git merge feature-nueva
 
 Ultima modificacion 13 de julio 1:25pm
 
+git clone https://github.com/usuario/repositorio.git
+cd nombre-del-repositorio
+git pull 
 
 
 
