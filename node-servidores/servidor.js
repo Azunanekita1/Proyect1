@@ -27,6 +27,8 @@ const servidor = http.createServer((req,res) => {
             res.end(data);
             }
 });
+
+//manejar cualquier otra cosa
 } else {
     res.writeHead(404, {"Content-Type": "text/css" });
     res.end(data);

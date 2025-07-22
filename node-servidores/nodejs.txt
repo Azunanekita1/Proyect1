@@ -17,3 +17,10 @@ Servidor con contenido estatico: html,css o imagenes
 
 modulo fs para leer archivos
 el modulo fs permite leer y envair al clientes
+
+LINEA DE COMANDOS:
+ls o dir = lista los archivos y carpetas del directorio actual
+mkdir =crea una nueva carpeta
+ls - ls = que permisos tiene (linux)
+type nul > archivo crea un nuevo archivo.
+rm o del index.js =elimina un archivo
