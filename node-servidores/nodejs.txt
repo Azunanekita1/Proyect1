@@ -1,0 +1,19 @@
+
+verificar instalacion
+node -v
+npm -v
+
+SERVIDOR BASICO 
+API http responde solicitudes de clientes (navegador,aplicaciones) con recursos html,json etc.
+node incluye el modulo http para crear servidores
+LIBRERIA EXPRESS
+importar http 
+funcion de flecha recibe contenido lo pone a correr.
+
+//ctrl + c para pararlo en la consola.
+se debe ejecutar en la consola
+
+Servidor con contenido estatico: html,css o imagenes
+
+modulo fs para leer archivos
+el modulo fs permite leer y envair al clientes
