@@ -47,3 +47,15 @@ res.send("Respuesta para ruta");
 rutas probar en =
 http://localhost:4000/about
 http://localhost:4000/contact
+
+MIDDLEWARE
+Ciclo de vida de una solicitud, request o responsive y llamar y pasar al siguiente MIDDLEWARE
+
+llamar a 
+next() para pasar al siguiente MIDDLEWARE
+
+app.use  ---
+--
+next();
+
+crear un MIDDLEWARE que registre la fecha y hora de cada solicitud.
