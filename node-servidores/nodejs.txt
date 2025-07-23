@@ -23,4 +23,23 @@ ls o dir = lista los archivos y carpetas del directorio actual
 mkdir =crea una nueva carpeta
 ls - ls = que permisos tiene (linux)
 type nul > archivo crea un nuevo archivo.
+touch =crear archivo 
 rm o del index.js =elimina un archivo
+
+NPM = 
+npm install nombre-paquete
+npm install -g nombre-paquete //global 
+
+npm init 
+npm install chalk
+npm install chalk@4
+
+nodemon para reiniciar automaticamente el servidor al guardar.
+
+npm install -g nodemon
+usar nodemon para ejecutar src/index.js
+
+nodemon src/index.js
+
+npm install figlet = para crear texto ASCII 
+

@@ -1,0 +1,49 @@
+Contruir APIS 
+Servidores en node.js
+EXPRESS ES UN FRAMEWORK MINIMALISTA PARA NODE.JS SIMPLIFICA LA CREACION DE APS WEBS Y APIS
+
+flexibilidad para contruir APIS RESTFUL Y APLICACIONES WEBS
+
+EXPRESS OFRECE OBSTRACCIONES QUE FACILITAN ESAS TAREAS CON UNA SINTAXIS MAS LIMPIA.
+
+npm init -y
+npm install express
+
+EJEMPLO:
+
+// Importamos Express
+const express = require('express');
+
+// Creamos una aplicación
+const app = express();
+
+// Cuando alguien visita la página principal...
+app.get('/', (req, res) => {
+  res.send('¡Hola, mundo!');
+});
+
+// Escuchamos en el puerto 3000 (como abrir la puerta en esa dirección)
+app.listen(3000, () => {
+  console.log('Servidor escuchando en http://localhost:3000');
+});
+
+node servidorsimplificado.js
+
+RUTAS EN EXPRESS
+especifican como debe responder el servidor a solciitudes diferentes urls
+Como debe
+app.=
+app.get, post put delete
+
+req request representa la solicitud del cliente. cuando llega
+res response = la respuesta enviada por el servidor. Salida, devuelve
+
+estructura
+
+app.get (), (req, res) => { 
+res.send("Respuesta para ruta");
+} 
+
+rutas probar en =
+http://localhost:4000/about
+http://localhost:4000/contact
