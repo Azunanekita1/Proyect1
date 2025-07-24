@@ -25,6 +25,15 @@ app.get("/services", (req,res)=>  {
 }
 );
 
+app.use ((err,req,next)=> {
+    console.error("Error detectado:", err.message);
+    res.statusCode(500).send ("Error en el servidor");
+}
+);
+app.get("/error", (req,res) => {
+    throw new Error("Este es un error simulado");
+}); 
+
 app.listen(4000, ()=> {
     console.log("Servidor Escuchando en http://localhost:4000");
 
