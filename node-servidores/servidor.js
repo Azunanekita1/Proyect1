@@ -28,6 +28,8 @@ const servidor = http.createServer((req,res) => {
             }
 });
 
+
+
 //manejar cualquier otra cosa
 } else {
     res.writeHead(404, {"Content-Type": "text/css" });
