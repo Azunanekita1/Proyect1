@@ -59,3 +59,44 @@ app.use  ---
 next();
 
 crear un MIDDLEWARE que registre la fecha y hora de cada solicitud.
+ejemplo ERROR
+
+app.use((err, req, res, next) => { 
+  const now = new Date();
+  const timestamp = now.toLocaleString(); 
+
+console.error(`[${timestamp}] Error:`, err.stack);
+
+  res.status(500).json({
+    error: 'Ocurrió un error interno',
+    timestamp: timestamp, // Enviar la hora en la respuesta
+  });
+});
+
+app.use ((err,req,next)=> {
+    console.error("Error detectado:", err.message);
+    res.statusCode(500).send ("Error en el servidor");
+}
+);
+app.get("/error", (req,res) => {
+    throw new Error("Este es un error simulado");
+}); 
+
+
+/products: Devuelve una lista de productos 
+/contact: Devuelve informacion de contacto
+
+RUTAS Y ENDPOINTS:
+
+RUTAS RESTFUL
+RUTAS ARQUITECTONICAS PARA CONSTRUIR APIS QUE USEN METODOS HTTP DE MANERA EFICIENTE Y ESTANDARIZADA
+
+Endpoint = URL especifica que realiza una Accion 
+
+get = obtener datos
+post =crear nuevos recursos
+put= actualziar recursos existentes
+delete = eliminar recursos
+
+
+
