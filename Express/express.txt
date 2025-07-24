@@ -98,5 +98,10 @@ post =crear nuevos recursos
 put= actualziar recursos existentes
 delete = eliminar recursos
 
+MANEJO DE DATOS   
+req.body
+usado para enviar datos en solciitudes POST O PUT 
+Se requeire MIDDLEWARE para analizar el cuerpo express.json
 
+app.use(express.json());
 

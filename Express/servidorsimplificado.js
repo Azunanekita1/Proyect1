@@ -3,6 +3,8 @@ import express from "express";
 //let frutas = ["manzana", "banana", "naranja"];
 const app = express();
 
+app.use(express.json());
+
 app.use ((req,res,next) =>  {
     console.log(`${req.method}- ${req.url}`);
     next();
@@ -46,6 +48,12 @@ app.get("/api/busqueda", (req,res) => {
     const { q } = req.query;
     res.send(`Resultado de busqueda para: ${q}`);
 });
+
+app.post("/api/productos", (req,res) => {
+    const  producto  = req.body;
+    res.send ( `Producto recibido ${producto.nombre}, Precio:${producto.precio} `);
+});
+
 
 app.listen(4000, ()=> {
     console.log("Servidor Escuchando en http://localhost:4000");
