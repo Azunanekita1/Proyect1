@@ -1,16 +1,16 @@
 import express from "express";
 //const express = require ("express");
 //let frutas = ["manzana", "banana", "naranja"];
+//const productosRoutes = require ("./routes/productos");
+import productosRoutes from './routes/productos.js';
 const app = express();
 
 app.use(express.json());
 
-app.use ((req,res,next) =>  {
-    console.log(`${req.method}- ${req.url}`);
-    next();
-    
-}
-);
+app.use("/api/productos/", productosRoutes);
+//app.use ((req,res,next) =>  {
+  //  console.log(`${req.method}- ${req.url}`);
+  //  next(); } );
 
 app.get("/", (req,res)=>  {
     res.send ("Hola soy express");
@@ -53,6 +53,33 @@ app.post("/api/productos", (req,res) => {
     const  producto  = req.body;
     res.send ( `Producto recibido ${producto.nombre}, Precio:${producto.precio} `);
 });
+
+//actaulizar productos
+app.put ("/api/productos/:id", (req,res) => {
+    const {id } = req.params;
+    const {nombre,precio} = req.body;
+
+    const producto = productos.find((p) => p.id === parseInt (id)); 
+    if (!producto ) return res.status(404).send ("Producto no encontrado");
+    producto.nombre = nombre;
+    producto.precio = precio;
+    res.send(producto);
+}
+);
+
+//const productoEliminado =productos.splice(index, 1);
+  //  res.send(productoEliminado);
+app.delete ("/api/productos/:id", (req,res) => {
+    const {id } = req.params;
+
+    const index = productos.findIndex((p) => p.id === parseInt (id)); 
+    if (index === -1 ) return res.status(404).send ("Producto no encontrado");
+
+    const productoEliminado =productos.splice(index, 1);
+    res.send(productoEliminado);
+}
+);
+
 
 
 app.listen(4000, ()=> {

@@ -105,3 +105,13 @@ Se requeire MIDDLEWARE para analizar el cuerpo express.json
 
 app.use(express.json());
 
+API RESTFUL
+PUT Y DELETE 
+PUT= ACTUALIZAR RECURSOS 
+DELETE= ELIMINAR RECURSOS
+app.put 
+app.delete
+
+CRUD COMPLETO 
+REFACTORIZAR 
+

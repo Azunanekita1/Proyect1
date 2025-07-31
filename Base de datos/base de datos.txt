@@ -1,0 +1,7 @@
+relacional y no relacional
+
+relacional = SQL 1 o varios identificadores realciona todos los datos que sirvan, para lo necesario especifico
+
+INTRODUCCION MONGODB NO RELACIONAL, FORMATO json
+
+portafolio 
